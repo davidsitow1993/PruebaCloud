@@ -6,6 +6,8 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   response.send('Prueba Cloud David Pillajo, Andres Salgado')
+response.send('Prueba Cloud David Pillajo, Andres Salgado')
+response.send('Prueba Cloud David Pillajo, Andres Salgado')
 })
 
 app.listen(app.get('port'), function() {
